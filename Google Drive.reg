@@ -1,19 +1,5 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
-@="Google Drive"
-"System.IsPinnedToNamespaceTree"=dword:00000001
-"SortOrderIndex"=dword:00000042
-
-[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\InProcServer32]
-@=hex(2):25,00,53,00,59,00,53,00,54,00,45,00,4D,00,52,00,4F,00,4F,00,54,00,\
-25,00,5C,00,73,00,79,00,73,00,74,00,65,00,6D,00,33,00,32,00,5C,00,73,00,68,\
-00,65,00,6C,00,6C,00,33,00,32,00,2E,00,64,00,6C,00,6C,00,00,00
-
-[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\ShellFolder]
-"FolderValueFlags"=dword:00000028
-"Attributes"=dword:f080004d
-
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
 @="Google Drive"
 "System.IsPinnedToNamespaceTree"=dword:00000001
@@ -27,18 +13,6 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\ShellFolder]
 "FolderValueFlags"=dword:00000028
 "Attributes"=dword:f080004d
-
-[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\DefaultIcon]
-@="C:\\Program Files (x86)\\Google\\Drive\\googledrivesync.exe,0"
-
-[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance]
-"CLSID"="{0E5AAE11-A475-4c5b-AB00-C66DE400274E}"
-
-[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag]
-"Attributes"=dword:00000011
-"TargetFolderPath"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,\
-  00,49,00,4c,00,45,00,25,00,5c,00,47,00,6f,00,6f,00,67,00,6c,00,65,00,20,00,\
-  44,00,72,00,69,00,76,00,65,00,00,00
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
 "{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}"=dword:00000001
