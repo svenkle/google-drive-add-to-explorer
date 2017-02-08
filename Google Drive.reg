@@ -1,28 +1,34 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{02899e94-bba2-4fa5-847b-544f2a8b39e3}]
 @="Google Drive"
 "System.IsPinnedToNamespaceTree"=dword:00000001
 "SortOrderIndex"=dword:00000042
 
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\ShellFolder]
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{02899e94-bba2-4fa5-847b-544f2a8b39e3}\ShellFolder]
 "FolderValueFlags"=dword:00000028
 "Attributes"=dword:f080004d
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
-"{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}"=dword:00000001
+"{02899e94-bba2-4fa5-847b-544f2a8b39e3}"=dword:00000001
 
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{02899e94-bba2-4fa5-847b-544f2a8b39e3}]
 @="Google Drive"
 
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\DefaultIcon]
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{02899e94-bba2-4fa5-847b-544f2a8b39e3}\DefaultIcon]
 @="C:\\Program Files (x86)\\Google\\Drive\\googledrivesync.exe,0"
 
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance]
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{02899e94-bba2-4fa5-847b-544f2a8b39e3}\Instance]
 "CLSID"="{0E5AAE11-A475-4c5b-AB00-C66DE400274E}"
 
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag]
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{02899e94-bba2-4fa5-847b-544f2a8b39e3}\Instance\InitPropertyBag]
 "Attributes"=dword:00000011
 "TargetFolderPath"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,\
   00,49,00,4c,00,45,00,25,00,5c,00,47,00,6f,00,6f,00,67,00,6c,00,65,00,20,00,\
   44,00,72,00,69,00,76,00,65,00,00,00
+
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+[-HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}"=-
