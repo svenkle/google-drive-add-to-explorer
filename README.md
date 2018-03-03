@@ -11,7 +11,7 @@ Following the steps below you can create the same shortcut for Google Drive.
 ## Installation
 
 - Download this repository.
-- Open  **GoogleDrive.reg**  in your favourite text editor.
+- Open  **GoogleDrive.reg** or **AddGoogleDrive.reg** for the Fall Creators Update in your favourite text editor.
 - Update the %USERPROFILE% values for TargetFolderPath so that the final value is the full path to your Google Drive folder. Ensure that you use `\\` in the folder path structure. eg. `"TargetFolderPath"="C:\\Users\\User name\\Google Drive"`
 - Save all changes
 - Double-click  **GoogleDrive.reg**  to install and ensure you click yes when prompted.
