@@ -1,26 +1,24 @@
-# Adding Google Drive to the Windows Explorer sidebar
+# Google Drive in Windows Explorer
 
-For those of you who use OneDrive or Dropbox you may have noticed that they create non-removable shortcuts in the Explorer sidebar. If you are also a Google Drive user you&#39;ll notice that Google Drive doesn&#39;t create the same shortcuts.
+OneDrive and Dropbox both create non-removable shortcuts in the Windows Explorer sidebar - the same unfortunately cannot be said for Google Drive. The scripts in this repository will make the necessary changes to allow for a Google Drive shortcut in Windows Explorer. The original article can be found at [Adding Google Drive to the Windows Explorer sidebar](https://luke.digital/adding-google-drive-to-the-explorer-sidebar/)
 
-![Image of first print](http://luke.digital/content/images/2016/08/google-drive-before.jpg)
-
-Following the steps below you can create the same shortcut for Google Drive.
-
-**Disclaimer: This was only tested on Windows 10 Professional and Windows 8.1 Professional. Ensure you backup your registry before making any changes.**
+**Disclaimer: This was tested on Windows 2019 Server, Windows 10 Professional and Windows 8.1 Professional. Ensure you backup your registry before making any changes.**
 
 ## Installation
 
-- Download this repository.
-- Open  **GoogleDrive.reg**  in your favourite text editor.
-- Update the %USERPROFILE% values for TargetFolderPath so that the final value is the full path to your Google Drive folder. Ensure that you use `\\` in the folder path structure. eg. `"TargetFolderPath"="C:\\Users\\User name\\Google Drive"`
-- Save all changes
-- Double-click  **GoogleDrive.reg**  to install and ensure you click yes when prompted.
+1. Download and run the **`Google Drive.bat`** batch file as an Administrator. Instructions for how to run a batch file as Administrator can be found [here](https://www.wikihow.com/Run-a-BAT-File-on-Windows), [here](https://www.windowscentral.com/how-create-and-run-batch-file-windows-10) or [here](https://www.letmegooglethat.com/?q=how+to+run+a+batch+file).
+2. Restart your computer.
 
 ## Results
+You should now see Google Drive pinned to the Windows Explorer sidebar.
 
-![Image of first print](http://luke.digital/content/images/2016/08/google-drive-after.jpg)
+![Before](http://luke.digital/content/images/2016/08/google-drive-before.jpg)
+![After](http://luke.digital/content/images/2016/08/google-drive-after.jpg)
 
+## Uninstallation
 
-You should now see Google Drive pinned to the Explorer sidebar.
+1. Download and run the **`Remove Google Drive.bat`** batch file as an Administrator.
+2. Restart your computer. 
 
-Credits: [**luke.digital**](http://luke.digital/adding-google-drive-to-the-explorer-sidebar/)
+## Custom Folder Location
+If Google Drive is configured in mirror or classic mode and not installed in the default location i.e `C:\Users\Username\My Drive` you must update lines #26 and #27 to reflect the correct location before running the script. For example, if Google Drive is configured for `C:\Google Drive` you must update the value from `%USERPROFILE%\My Drive` to `C:\Google Drive`.
