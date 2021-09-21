@@ -25,6 +25,6 @@ IF EXIST "%USERPROFILE%\\My Drive" (
 	REG ADD "HKCU\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag" /v "TargetFolderPath" /t REG_EXPAND_SZ /d "%USERPROFILE%\My Drive" /f
 	REG ADD "HKCU\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag" /v "TargetFolderPath" /t REG_EXPAND_SZ /d "%USERPROFILE%\My Drive" /f
 ) ELSE (
-	REG ADD "HKCU\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag" /v "TargetFolderPath" /t REG_SZ /d "G:\" /f
-	REG ADD "HKCU\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag" /v "TargetFolderPath" /t REG_SZ /d "G:\" /f
+	REG ADD "HKCU\Software\Classes\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag" /v "TargetFolderPath" /t REG_SZ /d "G:\\" /f
+	REG ADD "HKCU\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag" /v "TargetFolderPath" /t REG_SZ /d "G:\\" /f
 )
