@@ -5,6 +5,9 @@
 ::WITHOUT TOUCHING ANY FILES/REGISTERY ANYTHING at all
 ::source >> https://stackoverflow.com/a/21295806
 
+::Using an elevated runas cmd prompt/powershell is deliberately avoided for security/privacy reasons
+::and to have a SYSTEM-LESS way
+
 fsutil dirty query %systemdrive% >nul
 IF %ERRORLEVEL% GTR 0 goto NO_ADMIN_ERROR
 
