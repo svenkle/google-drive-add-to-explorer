@@ -40,9 +40,6 @@ IF EXIST "%USERPROFILE%\\My Drive" (
 	REG ADD "HKCU\Software\Classes\Wow6432Node\CLSID\{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}\Instance\InitPropertyBag" /v "TargetFolderPath" /t REG_SZ /d "G:\\" /f
 )
 
-pause
-goto :EOF
-
 :NO_ADMIN_ERROR
 
 ::The error msg is here just for reference, you are free and encouraged to add your own
