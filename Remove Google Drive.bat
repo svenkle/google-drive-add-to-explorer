@@ -17,6 +17,9 @@ REG DELETE "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Name
 REG DELETE "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D41}" /f
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /f
 
+pause
+goto :EOF
+
 :NO_ADMIN_ERROR
 
 ::The error msg is here just for reference, you are free and encouraged to add your own
