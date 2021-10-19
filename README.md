@@ -12,8 +12,8 @@ OneDrive and Dropbox both create non-removable shortcuts in the Windows Explorer
 ## Results
 You should now see Google Drive pinned to the Windows Explorer sidebar.
 
-![Before](http://luke.digital/content/images/2016/08/google-drive-before.jpg)
-![After](http://luke.digital/content/images/2016/08/google-drive-after.jpg)
+![before](https://user-images.githubusercontent.com/92355621/137851324-059e4c12-ad0c-4fe3-afb6-e166a96d3fdb.png)
+![after](https://user-images.githubusercontent.com/92355621/137851316-7c748dfe-b91d-4dc0-8883-31983a3e8d2b.png)
 
 ## Uninstallation
 
